@@ -1,0 +1,169 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+
+body{
+width: 1680px;
+margin-top: 30px;
+
+}
+
+.logo{
+width: 150px;
+height: 150px;
+cursor: pointer;
+}
+
+figcaption{
+    color: aliceblue;
+}
+
+.ps{
+    margin-right: 300px;
+    margin-top: 50px;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: linear-gradient( to left, rgb(153, 20, 144),rgb(15, 206, 187));
+    border-radius: 5px;
+    height: 200px;
+}
+section{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+h4{
+    border-radius: 50px;
+    border: 2px solid rgb(255, 254, 254);
+    color: white;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+h4:hover{
+    background-color: linear-gradient( to left, rgb(153, 20, 144),rgb(15, 206, 187));
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(4, 4, 4);
+    
+}
+
+nav{
+    text-align: center;
+    width: 800px;
+    display: flex;
+   
+}
+
+.ps1 h4{
+   margin: auto;
+}
+
+main{
+    background-image: url(../Img/fondo_web.jpg);
+    justify-content: center;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 100%;    
+}
+
+
+main section{
+    display: flexbox;
+    
+}
+
+.im{
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.junt{
+margin: auto;
+}
+
+.parte1{
+    border-top-color: rgba(121, 103, 224, 0.118);
+    
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(221deg, rgb(45, 99, 139) 0%, rgb(155, 140, 211) 35%, rgba(17,25,45,1) 53%, rgb(54, 84, 107) 99%);
+    margin: auto;
+}
+
+footer section p{
+    padding: 10px;
+    list-style-type: none;
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.footerdiv{
+    margin-left: 90px;
+    display: flex;
+}
+
+.footer_img{
+    
+    display: flex;
+    justify-content: flex-end;
+   
+   
+
+}
+.ministerio{
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(7, 3, 12);
+    padding: 6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+
+.img2{
+    margin-top: 5px;
+}
+
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: 0.4s;
+    height: 50px;
+}
+
+p:hover{
+    color: rgb(154, 62, 207);
+    cursor: pointer;
+    background-color: rgb(20, 10, 2);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 45px;
+}
+
+footer{
+    width: 100%;
+}
+
+iframe{
+    border-radius: 50px;
+    border-bottom: 20px;
+    border-top: 20px;
+}
